@@ -56,4 +56,4 @@ docker-compose.*.yml
 # Для production используйте DVC, тогда раскомментируйте строки ниже:
 # models/*.joblib
 # models/*.pkl
-# data/
+# data/models/*.joblib
