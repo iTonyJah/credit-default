@@ -1,0 +1,12 @@
+services:
+  credit_default_api:
+    build: .
+    container_name: credit_default_service
+    restart: always
+    ports:
+      - "5000:5000"
+    volumes:
+      # Опционально: монтируем папку models, если модель будет обновляться без пересборки
+      - ./models:/app/models
+    environment:
+      - PYTHONUNBUFFERED=1

@@ -1,0 +1,59 @@
+# ─── Python & Project Artifacts ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# ─── Virtual Environments ──────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ─── IDE & Editor Configs ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS Files ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Environment Variables & Secrets ──────────────────────────────────────
+.env
+.env.*
+*.key
+*.pem
+
+# ─── Logs & Temporary Files ────────────────────────────────────────────────
+*.log
+logs/
+tmp/
+temp/
+
+# ── Testing & Coverage ────────────────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# ─── Docker & Compose Artifacts ────────────────────────────────────────────
+docker-compose.override.yml
+docker-compose.*.yml
+
+# ── Models & Data (Optional) ──────────────────────────────────────────────
+# В рамках учебного проекта модель коммитим в Git (она небольшая).
+# Для production используйте DVC, тогда раскомментируйте строки ниже:
+# models/*.joblib
+# models/*.pkl
+# data/
