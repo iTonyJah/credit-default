@@ -29,10 +29,12 @@ venv\Scripts\activate     # Windows
 
 # 2. Установите зависимости
 pip install -r requirements.txt
-
+```
+```bash
 # 3. Запустите сервер
 python app/main.py
-
+```
+```bash
 # 4. В другом терминале запустите тесты
 python tests/client.py
 ```
